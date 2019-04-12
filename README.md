@@ -29,7 +29,7 @@
 *  (IN PROGRESS) The outer accuracies (accuracies): Horizontal RMSE and 2dRMSE, Vertical RMSE and 2dRMSE, North accuracies, East accuracies, Vertical accuracies, Horizontal accuracies
 *  The Time Spent (s) of the Program  
 
-**[Output figures](The figures, which will be printed during the program run/Figures.zip)**
+**[Output figures](The figures, which will be printed during the program execution/Figures.zip)**
 
 *  A_The Number of Satellites (No Outliers or Float Solutions Removed)
 *  B_The DOP Values (No Outliers or Float Solutions Removed)
