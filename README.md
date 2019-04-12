@@ -16,7 +16,7 @@
 *  The GNSS measurement data can be fitted to follow the Gaussian distribution. You can produce Gaussian distribution models with the help of the means and standard deviations of the GNSS measurements. Utilize random number generation to produce the models and calculate distributions. You can test the models with varying sample sizes.
 *  Calculate inner accuracies (precisions)
 *  Calculate outer accuracies (accuracies)
-*  (IN PROGRESS) Produce a [Measurement report](Measurement report .pdf file example/Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
+*  (IN PROGRESS) Produce a [Measurement report](Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
 
 **Analysis of**
 
@@ -29,7 +29,7 @@
 *  (IN PROGRESS) The outer accuracies (accuracies): Horizontal RMSE and 2dRMSE, Vertical RMSE and 2dRMSE, North accuracies, East accuracies, Vertical accuracies, Horizontal accuracies
 *  The Time Spent (s) of the Program  
 
-**[Output figures](The figures, which will be printed during the program execution/Figures.zip)**
+**[Output figures](Figures.zip)**
 
 *  A_The Number of Satellites (No Outliers or Float Solutions Removed)
 *  B_The DOP Values (No Outliers or Float Solutions Removed)
@@ -88,7 +88,7 @@
 9.  When the browser is launched, select the proper .ipynb file from the directory view
 10. Run the notebook cell by cell or restart the current kernel and re-run the whole notebook
 11. The figures will be created to a new "figures" subfolder in your .ipynb folder location
-12. (IN PROGRESS) The [Measurement_report.pdf](Measurement report .pdf file example/Measurement_Report.pdf) file will be created to your [NLS_GNSS_SOFAMESA.ipynb](NLS_GNSS_SOFAMESA.ipynb) file folder location
+12. (IN PROGRESS) The [Measurement_report.pdf](Measurement_Report.pdf) file will be created to your [NLS_GNSS_SOFAMESA.ipynb](NLS_GNSS_SOFAMESA.ipynb) file folder location
 --------------------------------------------------------------------------------
 
 *Honours:*
