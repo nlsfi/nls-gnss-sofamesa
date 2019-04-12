@@ -82,6 +82,7 @@
 *   re
 *   string
 *   datetime
+*   reportlab
 6.  Launch Anaconda Prompt
 7.  Change the directory to the folder, where the [NLS_GNSS_SOFAMESA.ipynb](NLS_GNSS_SOFAMESA.ipynb) file is located. In Anaconda Prompt, write: *cd [the path here without the brackets]*
 8.  Launch Jupyter Notebook. In Anaconda Prompt, write: *jupyter-notebook*
