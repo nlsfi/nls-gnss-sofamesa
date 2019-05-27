@@ -90,7 +90,7 @@
 8.  Launch Jupyter Notebook. In Anaconda Prompt, write: *jupyter-notebook*
 9.  When the browser is launched, select the NLS_GNSS_SOFAMESA_Main_Program.ipynb file from the directory view
 10. Restart the current kernel and re-run the whole notebook (OR run the notebook cell by cell for debugging).
-11. Please find the [Measurement File Naming and Folder Structures.pdf](Measurement File Naming and Folder Structures.pdf) file, which describes the measurement file naming and folder structures.
+11. Please find the Measurement File Naming and Folder Structures.pdf file, which describes the measurement file naming and folder structures.
 --------------------------------------------------------------------------------
 
 *Honours:*
