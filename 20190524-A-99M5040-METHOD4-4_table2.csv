@@ -1,0 +1,14 @@
+,Parameter,Precision (m)*,Accuracy (m)**
+0,Horizontal RMSE***,0.006,0.019
+1,Vertical RMSE****,0.015,0.063
+2,Horizontal 2dRMSE***,0.012,0.039
+3,Vertical 2dRMSE****,0.03,0.126
+4,North Coordinate Standard Deviation,0.0041,
+5,East Coordinate Standard Deviation,0.004,
+6,Height Standard Deviation,0.015,
+7,North Coordinate Mean,6687768.4048,
+8,East Coordinate Mean,394444.8036,
+9,Height Mean,25.0691,
+10,North Coordinate Median,6687768.405,
+11,East Coordinate Median,394444.803,
+12,Height Median,25.069,
