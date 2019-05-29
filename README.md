@@ -111,7 +111,7 @@
 *  Free access through firewall
 *  The test data should consist of at least 3600 measurements per reference point. Is the requirement met? For example, with 10 seconds measurement time and 1 second epocs, averaged solutions should be 3600 pcs. Does the file consist of at least 3600 measurements for the point?
 *  Import the [GNSS measurement data as .csv file](20190524-A-99M5040-METHOD1-4.csv) and separated with "," and formatted as (the order of the columns doesn't matter) [Point Number,Code,Date,Time,Solution,Physical Station ID,Virtual Station ID,Northing,Easting,Ell Ht,Elev,Ant Ht,HRMS,VRMS,HDOP,VDOP,PDOP,GDOP,TDOP,GPS,GLONASS,GALILEO,BEIDOU,SBAS,QZSS].
-*  Import the [GNSS reference points coordinates data as .csv file](reference_points_example.csv) and formatted as (the order of the columns doesn't matter) [Reference Point Number,Northing,Easting,Elevation].
+*  Import the [GNSS reference points coordinates data as .csv file](reference_points_example.csv) and separated with "," and formatted as (the order of the columns doesn't matter) [Reference Point Number,Northing,Easting,Elevation].
 
 ## INSTRUCTIONS
 
