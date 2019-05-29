@@ -17,7 +17,9 @@
 *  Calculate inner accuracies (precisions)
 *  Calculate outer accuracies (accuracies)
 *  Produce a [Measurement report](20190524-A-99M5040-METHOD1-4_Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
-*  (IN PROGRESS) Produce a [Combined measurement report](99M5040_4_Combined_Measurement_Report.pdf) .pdf file of the figures the GNSS measurements.
+*  Produce two statistics tables [Table 1](20190524-A-99M5040-METHOD1-4_table1.csv) and [Table 2](20190524-A-99M5040-METHOD1-4_table2.csv) the GNSS measurements.
+*  (IN PROGRESS) Produce a [Combined measurement report](99M5040_4_Combined_Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
+*  (IN PROGRESS) Produce combined statistics table the GNSS measurements.
 
 **Analysis of**
 
@@ -30,7 +32,7 @@
 *  The outer accuracies (accuracies): Horizontal RMSE and 2dRMSE, Vertical RMSE and 2dRMSE, North accuracies, East accuracies, Vertical accuracies, Horizontal accuracies
 *  The Time Spent (s) of the Program  
 
-**Output figures**
+**Output figures (.png)**
 
 *  A_The Number of Satellites (No Outliers or Float Solutions Removed)
 *  B_The DOP Values (No Outliers or Float Solutions Removed)
@@ -49,6 +51,58 @@
 *  O_The Horizontal PRECISION of the point (INNER accuracy) (m) with DOP values
 *  P_The 3D PRECISION of the point (INNER accuracy) (m) with DOP values
 *  Q_The Vertical PRECISION of the point (INNER accuracy) (m) with DOP values
+
+**[Table 1](20190524-A-99M5040-METHOD1-4_table1.csv)**
+*  Total Number of Measurements
+*  Number of All Satellites Mean (No Outliers or Float Solutions Removed)
+*  Number of All Satellites Min and Max (No Outliers or Float Solutions Removed)
+*  Number of GPS Satellites Mean (No Outliers or Float Solutions Removed)
+*  Number of GLONASS Satellites Mean (No Outliers or Float Solutions Removed)
+*  Number of GALILEO Satellites Mean (No Outliers or Float Solutions Removed)
+*  Number of BEIDOU Satellites Mean (No Outliers or Float Solutions Removed)
+*  Mean of HDOP Values (No Outliers or Float Solutions Removed)
+*  Mean of VDOP Values (No Outliers or Float Solutions Removed)
+*  Mean of PDOP Values (No Outliers or Float Solutions Removed)
+*  Mean of TDOP Values (No Outliers or Float Solutions Removed)
+*  Mean of GDOP Values (No Outliers or Float Solutions Removed)
+*  User-Defined Tolerance Values
+*  Number of Measurements Above the Set Tolerance Values
+*  Above Tolerance Values Percentage
+*  Number of All Satellites Mean (Outliers Removed)
+*  Number of Satellites Min and Max (Outliers Removed)
+*  Number of GPS Satellites Mean (Outliers Removed)
+*  Number of GLONASS Satellites Mean (Outliers Removed)
+*  Number of GALILEO Satellites Mean (Outliers Removed)
+*  Number of BEIDOU Satellites Mean (Outliers Removed)
+*  Mean of HDOP Values (Outliers Removed)
+*  Mean of VDOP Values (Outliers Removed)
+*  Mean of PDOP Values (Outliers Removed)
+*  Mean of TDOP Values (Outliers Removed)
+*  Mean of GDOP Values (Outliers Removed)
+
+**[Table 2](20190524-A-99M5040-METHOD1-4_table2.csv)**
+- Precision (m)
+  - Horizontal RMSE
+  - Vertical RMSE
+  - Horizontal 2dRMSE
+  - Vertical 2dRMSE
+  - North Coordinate Standard Deviation
+  - East Coordinate Standard Deviation
+  - Height Standard Deviation
+  - North Coordinate Mean
+  - East Coordinate Mean
+  - Height Mean
+  - North Coordinate Median
+  - East Coordinate Median
+  - Height Median
+- Accuracy (m)
+  - Horizontal RMSE
+  - Vertical RMSE
+  - Horizontal 2dRMSE
+  - Vertical 2dRMSE
+
+**[Measurement File Naming and Folder Structures.pdf](Measurement File Naming and Folder Structures.pdf)**
+![Measurement File Naming and Folder Structures.PNG](Measurement File Naming and Folder Structures.PNG "Measurement File Naming and Folder Structures.PNG")
 
 **Requirements:**
 
