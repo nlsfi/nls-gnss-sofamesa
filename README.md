@@ -101,8 +101,8 @@
   - Horizontal 2dRMSE
   - Vertical 2dRMSE
 
-**[Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf)**
-![Measurement_File_Naming_and_Folder_Structures.PNG](Measurement_File_Naming_and_Folder_Structures.PNG "Measurement_File_Naming_and_Folder_Structures.PNG")
+**[Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
+![Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.PNG)
 
 **Requirements:**
 
@@ -122,29 +122,29 @@
 2.  Unzip the files to a proper location
 3.  Install Anaconda Platform for Windows: https://www.anaconda.com/
 4.  Make sure that your firewall doesn't block any of the operations related to the Anaconda platform
-5.  (IN PROGRESS) Install the required libraries, if not defaultly installed:
+5.  (IN PROGRESS) Install the required libraries, if not defaultly installed. *The ones including the installation url should at least be manually installed*:
 *   iPython
 *   time
-*   numpy
-*   matplotlib
-*   pandas
-*   seaborn
+*   [numpy](https://anaconda.org/anaconda/numpy)
+*   [matplotlib](https://anaconda.org/anaconda/matplotlib)
+*   [pandas](https://anaconda.org/anaconda/pandas)
+*   [seaborn](https://anaconda.org/anaconda/seaborn)
 *   os
 *   sys
 *   math
-*   pathlib
+*   [pathlib](https://anaconda.org/anaconda/pathlib)
 *   glob
 *   re
 *   string
 *   datetime
-*   reportlab
-*   pypdf2
+*   [reportlab](https://anaconda.org/anaconda/reportlab)
+*   [pypdf2](https://anaconda.org/conda-forge/pypdf2)
 6.  Launch Anaconda Prompt
 7.  Change the directory to the folder, where the [NLS_GNSS_SOFAMESA_Main_Program.ipynb](NLS_GNSS_SOFAMESA_Main_Program.ipynb) file is located. In Anaconda Prompt, write: *cd [the path here without the brackets]*
 8.  Launch Jupyter Notebook. In Anaconda Prompt, write: *jupyter-notebook*
 9.  When the browser is launched, select the NLS_GNSS_SOFAMESA_Main_Program.ipynb file from the directory view
 10. Restart the current kernel and re-run the whole notebook (OR run the notebook cell by cell for debugging).
-11. Please find the Measurement File Naming and Folder Structures.pdf file, which describes the measurement file naming and folder structures.
+11. Please find the [Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf) file, which describes the measurement file naming and folder structures.
 --------------------------------------------------------------------------------
 
 *Honours:*
