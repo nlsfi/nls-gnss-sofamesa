@@ -101,8 +101,8 @@
   - Horizontal 2dRMSE
   - Vertical 2dRMSE
 
-**[Measurement File Naming and Folder Structures.pdf](Measurement File Naming and Folder Structures.pdf)**
-![Measurement File Naming and Folder Structures.PNG](Measurement File Naming and Folder Structures.PNG "Measurement File Naming and Folder Structures.PNG")
+**[Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf)**
+![Measurement_File_Naming_and_Folder_Structures.PNG](Measurement_File_Naming_and_Folder_Structures.PNG "Measurement_File_Naming_and_Folder_Structures.PNG")
 
 **Requirements:**
 
