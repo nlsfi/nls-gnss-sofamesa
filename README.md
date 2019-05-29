@@ -1,4 +1,5 @@
 # NLS GNSS SOFAMESA
+*Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
 
 ### GNSS Measurement Accuracy Analysis Software of the National Land Survey of Finland
 *Author: Tuukka Mattila. Don't hesitate to contact via LinkedIn:* [LinkedIn profile](https://www.linkedin.com/in/tuukkamattila/)
