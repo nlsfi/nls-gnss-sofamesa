@@ -17,9 +17,9 @@
 *  Calculate inner accuracies (precisions)
 *  Calculate outer accuracies (accuracies)
 *  Produce a [Measurement report](20190524-A-99M5040-METHOD1-4_Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
-*  Produce two statistics tables [Table 1](20190524-A-99M5040-METHOD1-4_table1.csv) and [Table 2](20190524-A-99M5040-METHOD1-4_table2.csv) the GNSS measurements.
+*  Produce two statistics tables [Table 1](20190524-A-99M5040-METHOD1-4_table1.csv) and [Table 2](20190524-A-99M5040-METHOD1-4_table2.csv) of the GNSS measurements.
 *  (IN PROGRESS) Produce a [Combined measurement report](99M5040_4_Combined_Measurement_Report.pdf) .pdf file of the figures and statistics of the GNSS measurements.
-*  (IN PROGRESS) Produce combined statistics table the GNSS measurements.
+*  (IN PROGRESS) Produce combined statistics table of the GNSS measurements.
 
 **Analysis of**
 
