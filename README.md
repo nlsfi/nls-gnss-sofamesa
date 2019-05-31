@@ -3,7 +3,7 @@
 
 ### GNSS Position Solution Analysis Software of the National Land Survey of Finland
 * Author: Tuukka Mattila. Don't hesitate to contact via LinkedIn: [LinkedIn profile](https://www.linkedin.com/in/tuukkamattila/)
-* Thank you for the help: Topi Rikkinen, Marko Ollikainen, Antti Laaksonen, Hannu Koivula, and Ari Huvinen.
+* Thank you for the help: Topi Rikkinen, Marko Ollikainen, Antti Laaksonen, Hannu Koivula, Octavian Andrei and Ari Huvinen.
 
 **Capabilities**
 
