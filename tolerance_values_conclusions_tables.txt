@@ -1,0 +1,13 @@
+Parameter,Tolerance 1st Min,Tolerance 1st Max,Tolerance 2nd Min,Tolerance 2nd Max,Tolerance 3rd Min,Tolerance 3rd Max, Tolerance 4th Min, Tolerance 4th Max,Tolerance 5th Min,Weighing
+Fixed Solution Percentages (No Outliers Removed),100,99.9,99.9,99,99,95,95,63,63,0.25
+Above Tolerance Values Percentage,0.00,0.1,0.1,1,1,5,5,37,37,0.05
+Fixed Solution Percentages (Outliers Removed),100,99.9,99.9,99,99,95,95,63,63,0.05
+Mean of PDOP Values (Outliers Removed),1,2,2,5,5,10,10,20,20,0.025
+Mean of GDOP Values (Outliers Removed),1,2,2,5,5,10,10,20,20,0.025
+Precision: Horizontal RMSE*** ± (m),0.00,0.03,0.03,0.05,0.05,0.075,0.075,0.1,0.1,0.125
+Precision: Vertical RMSE**** ± (m),0.00,0.045,0.045,0.075,0.075,0.112,0.112,0.2,0.2,0.075
+Accuracy: Horizontal RMSE*** ± (m),0.00,0.045,0.045,0.075,0.075,0.1,0.1,0.15,0.15,0.15
+Accuracy: Vertical RMSE**** ± (m),0.00,0.067,0.067,0.112,0.112,0.168,0.168,0.3,0.3,0.1
+Precision: North Coordinate Std ± (m),0.0000,0.01,0.01,0.02,0.02,0.05,0.05,0.1,0.1,0.05
+Precision: East Coordinate Std ± (m),0.0000,0.01,0.01,0.02,0.02,0.05,0.05,0.1,0.1,0.05
+Precision: Height Std ± (m),0.0000,0.015,0.015,0.03,0.03,0.075,0.075,0.15,0.15,0.05
