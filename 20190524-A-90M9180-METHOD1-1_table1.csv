@@ -1,0 +1,34 @@
+,Parameter,Value
+0,Total Number of Measurements (No Outliers Removed),499
+1,Timespan (No Outliers Removed),09:21:14 - 09:29:36
+2,"Solution Percentages (No Outliers Removed),
+Fixed; Float; Code Diff; Standalone; Other",99.6%; 0.0%; 0.0%; 0.4%; 0.0%
+3,Number of All Satellites Mean (No Outliers Removed),19.0
+4,"Number of All Satellites (No Outliers Removed), Min; Max",14; 27
+5,Number of GPS Satellites Mean (No Outliers Removed),11.0
+6,Number of GLONASS Satellites Mean (No Outliers Removed),7.9
+7,Number of GALILEO Satellites Mean (No Outliers Removed),0.0
+8,Number of BEIDOU Satellites Mean (No Outliers Removed),0.0
+9,Mean of HDOP Values (No Outliers Removed),0.6
+10,Mean of VDOP Values (No Outliers Removed),1.2
+11,Mean of PDOP Values (No Outliers Removed),1.3
+12,Mean of TDOP Values (No Outliers Removed),
+13,Mean of GDOP Values (No Outliers Removed),1.5
+14,"User-Defined Tolerance Values,
+North (m) and East (m); Height (m)",0.1; 0.2
+15,Number of Measurements Above the Set Tolerance Values,2
+16,Above Tolerance Values Percentage,0.4%
+17,Timespan (Outliers Removed),09:21:14 - 09:29:36
+18,"Solution Percentages (Outliers Removed),
+Fixed; Float; Code Diff; Standalone; Other",100.0%; 0.0%; 0.0%; 0.0%; 0.0%
+19,Number of All Satellites Mean (Outliers Removed),19.0
+20,"Number of All Satellites (Outliers Removed), Min; Max",14; 19
+21,Number of GPS Satellites Mean (Outliers Removed),11.0
+22,Number of GLONASS Satellites Mean (Outliers Removed),8.0
+23,Number of GALILEO Satellites Mean (Outliers Removed),0.0
+24,Number of BEIDOU Satellites Mean (Outliers Removed),0.0
+25,Mean of HDOP Values (Outliers Removed),0.6
+26,Mean of VDOP Values (Outliers Removed),1.2
+27,Mean of PDOP Values (Outliers Removed),1.3
+28,Mean of TDOP Values (Outliers Removed),
+29,Mean of GDOP Values (Outliers Removed),1.5
