@@ -136,7 +136,7 @@ These are the parameters, which are taken into account in the [Table 4 (Grading 
 
 *  The Grading Table, in which the maximum amount of points is 5, which is the sum of the weighted points. The highest number of points reveals the winner.
 
-**[Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
+**[Measurement File Naming and Folder Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
 ![Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.PNG)
 
 **Requirements:**
