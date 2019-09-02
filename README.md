@@ -53,7 +53,8 @@ SOFAMESA analyses GNSS measurement files. See example report produced by SOFAMES
 10. Restart the current kernel and re-run the whole notebook (OR run the notebook cell by cell for debugging).
 11. Please find the [Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf) file, which describes the measurement file naming and folder structures.
 
-
+--------------------------------------------------------------------------------
+## MORE INFORMATION ABOUT SOFAMESA
 
 **Capabilities**
 
@@ -188,6 +189,8 @@ These are the parameters, which are taken into account in the [Table 4 (Grading 
 
 **[Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
 ![Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.PNG)
+
+--------------------------------------------------------------------------------
 
 **Requirements:**
 
