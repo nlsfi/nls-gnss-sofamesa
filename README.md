@@ -1,12 +1,13 @@
-# NOTICE! THIS REPOSITORY IS NO LONGER UPDATED AFTER JULY 11th 2019! PLEASE FIND THE UPDATED VERSION FROM THE DEVELOPERS'S REPOSITORY: https://github.com/dmm809/nls-gnss-sofamesa
-
+# NOTICE! THIS REPOSITORY MIGHT NOT BE UPDATED AFTER JULY 11th 2019! PLEASE FIND THE UPDATED VERSION FROM THE DEVELOPERS'S REPOSITORY: https://github.com/dmm809/nls-gnss-sofamesa
 
 # NLS GNSS SOFAMESA
 *Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
 
-### GNSS Position Solution Analysis Software of the National Land Survey of Finland
-* Author: Tuukka Mattila. Don't hesitate to contact via LinkedIn: [LinkedIn profile](https://www.linkedin.com/in/tuukkamattila/)
-* Thank you for the help: Topi Rikkinen, Marko Ollikainen, Antti Laaksonen, Hannu Koivula, Octavian Andrei, Mikael Kauhava, Timo Sallinen and Ari Huvinen.
+**Updates & changes 2019-9**
+*  If all data was filtered out, program resulted in error. Now if all values are filtered, vectors with 'None' are created 
+*  Added different possibilities on filtering results: on true reference coordinates; on median of ALL measurements; on median of FIXED measurements. See NLS_GNSS_SOFAMESA.ipynb
+*  Gaussian distribution -plots disabled
+*  Minor changes on statistics table fields 
 
 **Capabilities**
 
@@ -139,7 +140,7 @@ These are the parameters, which are taken into account in the [Table 4 (Grading 
 
 *  The Grading Table, in which the maximum amount of points is 5, which is the sum of the weighted points. The highest number of points reveals the winner.
 
-**[Measurement File Naming and Folder Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
+**[Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.pdf)**
 ![Measurement_File_Naming_and_Folder_Structures](Measurement_File_Naming_and_Folder_Structures.PNG)
 
 **Requirements:**

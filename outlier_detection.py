@@ -13,16 +13,12 @@ def outliers(np, pd, tolerance_north_east, tolerance_height, coordinates1, media
                                                    'Code': [testmeasurements_df.loc[i, 'Code']],
                                                    'Date': [testmeasurements_df.loc[i, 'Date']],
                                                    'Time': [testmeasurements_df.loc[i, 'Time']],
-# 'Time Stamp': [testmeasurements_df.loc[i, 'Time Stamp']],
-# 'Epocs Count': [testmeasurements_df.loc[i, 'Epocs Count']],
                                                    'Solution': [testmeasurements_df.loc[i, 'Solution']],
                                                    'Physical Station ID': [testmeasurements_df.loc[i, 'Physical Station ID']],
                                                    'Virtual Station ID': [testmeasurements_df.loc[i, 'Virtual Station ID']],
                                                    'Northing': [testmeasurements_df.loc[i, 'Northing']],
                                                    'Easting': [testmeasurements_df.loc[i, 'Easting']],
                                                    'Elev': [testmeasurements_df.loc[i, 'Elev']], 
-# 'Lat': [testmeasurements_df.loc[i, 'Lat']],
-# 'Lon': [testmeasurements_df.loc[i, 'Lon']],
                                                    'Ell Ht': [testmeasurements_df.loc[i, 'Ell Ht']],
                                                    'Ant Ht': [testmeasurements_df.loc[i, 'Ant Ht']],
                                                    'HRMS': [testmeasurements_df.loc[i, 'HRMS']],
@@ -38,33 +34,6 @@ def outliers(np, pd, tolerance_north_east, tolerance_height, coordinates1, media
                                                    'BEIDOU': [testmeasurements_df.loc[i, 'BEIDOU']],
                                                    'SBAS': [testmeasurements_df.loc[i, 'SBAS']],
                                                    'QZSS': [testmeasurements_df.loc[i, 'QZSS']]}
-# 'Delta N': [testmeasurements_df.loc[i, 'Delta N']],
-# 'Delta E': [testmeasurements_df.loc[i, 'Delta E']],
-# 'Delta Elev': [testmeasurements_df.loc[i, 'Delta Elev']],
-# 'Azimuth': [testmeasurements_df.loc[i, 'Azimuth']],
-# 'Slant Distance': [testmeasurements_df.loc[i, 'Slant Distance']],
-# 'Vertical Angle': [testmeasurements_df.loc[i, 'Vertical Angle']],
-# 'Base Antenna Type': [testmeasurements_df.loc[i, 'Base Antenna Type']],
-# 'Rover Antenna Type': [testmeasurements_df.loc[i, 'Rover Antenna Type']],
-# 'dX (mm)': [testmeasurements_df.loc[i, 'dX (mm)']],
-# 'dY (mm)': [testmeasurements_df.loc[i, 'dY (mm)']],
-# 'e': [testmeasurements_df.loc[i, 'e']],
-# 'SigmaX': [testmeasurements_df.loc[i, 'SigmaX']],
-# 'SigmaY': [testmeasurements_df.loc[i, 'SigmaY']],
-# 'SigmaZ': [testmeasurements_df.loc[i, 'SigmaZ']],
-# 'CorXY': [testmeasurements_df.loc[i, 'CorXY']],
-# 'CorXZ': [testmeasurements_df.loc[i, 'CorXZ']],
-# 'CorYZ': [testmeasurements_df.loc[i, 'CorYZ']],
-# 'CovXY': [testmeasurements_df.loc[i, 'CovXY']],
-# 'CovXZ': [testmeasurements_df.loc[i, 'CovXZ']],
-# 'CovYZ': [testmeasurements_df.loc[i, 'CovYZ']],
-# 'Tilt X': [testmeasurements_df.loc[i, 'Tilt X']],
-# 'Tilt Y': [testmeasurements_df.loc[i, 'Tilt Y']],
-# 'Heading': [testmeasurements_df.loc[i, 'Heading']],
-# 'Sigma Tilt X': [testmeasurements_df.loc[i, 'Sigma Tilt X']],
-# 'Sigma Tilt Y': [testmeasurements_df.loc[i, 'Sigma Tilt Y']],
-# 'Sigma Heading': [testmeasurements_df.loc[i, 'Sigma Heading']],
-# 'Magnetic Field': [testmeasurements_df.loc[i, 'Magnetic Field']]}
                 testmeasurements_df_no_outliers = pd.DataFrame(data = testmeasurements_df_no_outliers)
                 northcoordinates_belowtolerances.append(coordinates1[i])
                 eastcoordinates_belowtolerances.append(coordinates2[i])
@@ -80,16 +49,12 @@ def outliers(np, pd, tolerance_north_east, tolerance_height, coordinates1, media
                                                    'Code': [testmeasurements_df.loc[i, 'Code']],
                                                    'Date': [testmeasurements_df.loc[i, 'Date']],
                                                    'Time': [testmeasurements_df.loc[i, 'Time']],
-# 'Time Stamp': [testmeasurements_df.loc[i, 'Time Stamp']],
-# 'Epocs Count': [testmeasurements_df.loc[i, 'Epocs Count']],
                                                    'Solution': [testmeasurements_df.loc[i, 'Solution']],
                                                    'Physical Station ID': [testmeasurements_df.loc[i, 'Physical Station ID']],
                                                    'Virtual Station ID': [testmeasurements_df.loc[i, 'Virtual Station ID']],
                                                    'Northing': [testmeasurements_df.loc[i, 'Northing']],
                                                    'Easting': [testmeasurements_df.loc[i, 'Easting']],
                                                    'Elev': [testmeasurements_df.loc[i, 'Elev']], 
-# 'Lat': [testmeasurements_df.loc[i, 'Lat']],
-# 'Lon': [testmeasurements_df.loc[i, 'Lon']],
                                                    'Ell Ht': [testmeasurements_df.loc[i, 'Ell Ht']],
                                                    'Ant Ht': [testmeasurements_df.loc[i, 'Ant Ht']],
                                                    'HRMS': [testmeasurements_df.loc[i, 'HRMS']],
@@ -105,40 +70,43 @@ def outliers(np, pd, tolerance_north_east, tolerance_height, coordinates1, media
                                                    'BEIDOU': [testmeasurements_df.loc[i, 'BEIDOU']],
                                                    'SBAS': [testmeasurements_df.loc[i, 'SBAS']],
                                                    'QZSS': [testmeasurements_df.loc[i, 'QZSS']]}
-# 'Delta N': [testmeasurements_df.loc[i, 'Delta N']],
-# 'Delta E': [testmeasurements_df.loc[i, 'Delta E']],
-# 'Delta Elev': [testmeasurements_df.loc[i, 'Delta Elev']],
-# 'Azimuth': [testmeasurements_df.loc[i, 'Azimuth']],
-# 'Slant Distance': [testmeasurements_df.loc[i, 'Slant Distance']],
-# 'Vertical Angle': [testmeasurements_df.loc[i, 'Vertical Angle']],
-# 'Base Antenna Type': [testmeasurements_df.loc[i, 'Base Antenna Type']],
-# 'Rover Antenna Type': [testmeasurements_df.loc[i, 'Rover Antenna Type']],
-# 'dX (mm)': [testmeasurements_df.loc[i, 'dX (mm)']],
-# 'dY (mm)': [testmeasurements_df.loc[i, 'dY (mm)']],
-# 'e': [testmeasurements_df.loc[i, 'e']],
-# 'SigmaX': [testmeasurements_df.loc[i, 'SigmaX']],
-# 'SigmaY': [testmeasurements_df.loc[i, 'SigmaY']],
-# 'SigmaZ': [testmeasurements_df.loc[i, 'SigmaZ']],
-# 'CorXY': [testmeasurements_df.loc[i, 'CorXY']],
-# 'CorXZ': [testmeasurements_df.loc[i, 'CorXZ']],
-# 'CorYZ': [testmeasurements_df.loc[i, 'CorYZ']],
-# 'CovXY': [testmeasurements_df.loc[i, 'CovXY']],
-# 'CovXZ': [testmeasurements_df.loc[i, 'CovXZ']],
-# 'CovYZ': [testmeasurements_df.loc[i, 'CovYZ']],
-# 'Tilt X': [testmeasurements_df.loc[i, 'Tilt X']],
-# 'Tilt Y': [testmeasurements_df.loc[i, 'Tilt Y']],
-# 'Heading': [testmeasurements_df.loc[i, 'Heading']],
-# 'Sigma Tilt X': [testmeasurements_df.loc[i, 'Sigma Tilt X']],
-# 'Sigma Tilt Y': [testmeasurements_df.loc[i, 'Sigma Tilt Y']],
-# 'Sigma Heading': [testmeasurements_df.loc[i, 'Sigma Heading']],
-# 'Magnetic Field': [testmeasurements_df.loc[i, 'Magnetic Field']]}
                 testmeasurements_df_outliers = pd.DataFrame(data = testmeasurements_df_no_outliers)
                 abovetolerances.append([coordinates1[i] - median1, coordinates2[i] - median2, coordinates3[i] - median3])
             else:
                 testmeasurements_df_outliers.ix[i] =  testmeasurements_df.loc[i, :]
                 abovetolerances.append([coordinates1[i] - median1, coordinates2[i] - median2, coordinates3[i] - median3])
         i += 1
-    
+        
+    # TR 
+    if testmeasurements_df_no_outliers.empty == True:
+        print('All points above set tolerance values!')
+        testmeasurements_df_no_outliers = {'Point Number': [None],
+                                                   'Code': [None],
+                                                   'Date': [None],
+                                                   'Time': [None],
+                                                   'Solution': [None],
+                                                   'Physical Station ID': [None],
+                                                   'Virtual Station ID': [None],
+                                                   'Northing': [None],
+                                                   'Easting': [None],
+                                                   'Elev': [None], 
+                                                   'Ell Ht': [None],
+                                                   'Ant Ht': [None],
+                                                   'HRMS': [None],
+                                                   'VRMS': [None],
+                                                   'HDOP': [None],
+                                                   'VDOP': [None],
+                                                   'PDOP': [None],
+                                                   'TDOP': [None],
+                                                   'GDOP': [None],                                             
+                                                   'GPS': [None],
+                                                   'GLONASS': [None],
+                                                   'GALILEO': [None],
+                                                   'BEIDOU': [None],
+                                                   'SBAS': [None],
+                                                   'QZSS': [None]}
+        testmeasurements_df_no_outliers = pd.DataFrame(data = testmeasurements_df_no_outliers)
+        
     testmeasurements_df_no_outliers = testmeasurements_df_no_outliers.reset_index()
     testmeasurements_df_outliers = testmeasurements_df_outliers.reset_index()
     abovetolerances = np.array(abovetolerances)
