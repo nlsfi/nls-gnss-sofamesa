@@ -5,11 +5,55 @@ Regarding issues with *this* repository, contact finpos ( at ) maanmittauslaitos
 # NLS GNSS SOFAMESA
 *Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
 
+SOFAMESA analyses GNSS measurement files. See example report produced by SOFAMESA: [Comparison of five methods](90M9180_10_Visits_Conclusions_Measurement_Report.pdf)
+
+
+
+
+
 **Updates & changes 2019-9**
 *  If all data was filtered out, program resulted in error. Now if all values are filtered, vectors with 'None' are created 
 *  Added different possibilities on filtering results: on true reference coordinates; on median of ALL measurements; on median of FIXED measurements. See NLS_GNSS_SOFAMESA.ipynb
 *  Gaussian distribution -plots disabled
 *  Minor changes on statistics table fields 
+
+
+
+## INSTRUCTIONS FOR INSTALLATION
+
+*In order to successfully operate the NLS GNSS SOFAMESA, please follow the instructions below.*
+
+### Phases
+
+1.  Download all of the files provided as a .zip file from the Releases page: https://github.com/nlsfi/nls-gnss-sofamesa/releases
+2.  Unzip the files to a proper location, where you want to create all of your project files. *If you have your own measurement files and reference point coordinates file, those should all be located in the same folder, in which this software is located.*
+3.  Install Anaconda Platform for Windows: https://www.anaconda.com/
+4.  Make sure that your firewall doesn't block any of the operations related to the Anaconda platform.
+5.  (IN PROGRESS) Install the required libraries, if not defaultly installed. *The ones including the installation url should at least be manually installed*:
+*   iPython
+*   time
+*   [numpy](https://anaconda.org/anaconda/numpy)
+*   [matplotlib](https://anaconda.org/anaconda/matplotlib)
+*   [pandas](https://anaconda.org/anaconda/pandas)
+*   [seaborn](https://anaconda.org/anaconda/seaborn)
+*   os
+*   sys
+*   math
+*   [pathlib](https://anaconda.org/anaconda/pathlib)
+*   glob
+*   re
+*   string
+*   datetime
+*   [reportlab](https://anaconda.org/anaconda/reportlab)
+*   [pypdf2](https://anaconda.org/conda-forge/pypdf2)
+6.  Launch Anaconda Prompt.
+7.  Change the directory to the folder, where the [NLS_GNSS_SOFAMESA_Main_Program.ipynb](NLS_GNSS_SOFAMESA_Main_Program.ipynb) file is located. In Anaconda Prompt, write: *cd [the path here without the brackets]*
+8.  Launch Jupyter Notebook. In Anaconda Prompt, write: *jupyter-notebook*
+9.  When the browser is launched, select the [NLS_GNSS_SOFAMESA_Main_Program.ipynb](NLS_GNSS_SOFAMESA_Main_Program.ipynb) file from the directory view.
+10. Restart the current kernel and re-run the whole notebook (OR run the notebook cell by cell for debugging).
+11. Please find the [Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf) file, which describes the measurement file naming and folder structures.
+
+
 
 **Capabilities**
 
@@ -153,39 +197,7 @@ These are the parameters, which are taken into account in the [Table 4 (Grading 
 *  Import the [GNSS measurement data as .txt or .csv file(s)](20190524-A-90M9180-METHOD1-1.txt) and separated with "," and formatted as (the order of the columns doesn't matter) [Point Number,Code,Date,Time,Solution,Physical Station ID,Virtual Station ID,Northing,Easting,Ell Ht,Elev,Ant Ht,HRMS,VRMS,HDOP,VDOP,PDOP,GDOP,TDOP,GPS,GLONASS,GALILEO,BEIDOU,SBAS,QZSS].
 *  Import the [GNSS reference points coordinates data as .txt or .csv file](reference_points.txt) and separated with "," and formatted as (the order of the columns doesn't matter) [Reference Point Number,Northing,Easting,Elevation].
 
-## INSTRUCTIONS
 
-*In order to successfully operate the NLS GNSS SOFAMESA, please follow the instructions below.*
-
-### Phases
-
-1.  Download all of the files provided as a .zip file from the Releases page: https://github.com/nlsfi/nls-gnss-sofamesa/releases
-2.  Unzip the files to a proper location, where you want to create all of your project files. *If you have your own measurement files and reference point coordinates file, those should all be located in the same folder, in which this software is located.*
-3.  Install Anaconda Platform for Windows: https://www.anaconda.com/
-4.  Make sure that your firewall doesn't block any of the operations related to the Anaconda platform.
-5.  (IN PROGRESS) Install the required libraries, if not defaultly installed. *The ones including the installation url should at least be manually installed*:
-*   iPython
-*   time
-*   [numpy](https://anaconda.org/anaconda/numpy)
-*   [matplotlib](https://anaconda.org/anaconda/matplotlib)
-*   [pandas](https://anaconda.org/anaconda/pandas)
-*   [seaborn](https://anaconda.org/anaconda/seaborn)
-*   os
-*   sys
-*   math
-*   [pathlib](https://anaconda.org/anaconda/pathlib)
-*   glob
-*   re
-*   string
-*   datetime
-*   [reportlab](https://anaconda.org/anaconda/reportlab)
-*   [pypdf2](https://anaconda.org/conda-forge/pypdf2)
-6.  Launch Anaconda Prompt.
-7.  Change the directory to the folder, where the [NLS_GNSS_SOFAMESA_Main_Program.ipynb](NLS_GNSS_SOFAMESA_Main_Program.ipynb) file is located. In Anaconda Prompt, write: *cd [the path here without the brackets]*
-8.  Launch Jupyter Notebook. In Anaconda Prompt, write: *jupyter-notebook*
-9.  When the browser is launched, select the [NLS_GNSS_SOFAMESA_Main_Program.ipynb](NLS_GNSS_SOFAMESA_Main_Program.ipynb) file from the directory view.
-10. Restart the current kernel and re-run the whole notebook (OR run the notebook cell by cell for debugging).
-11. Please find the [Measurement_File_Naming_and_Folder_Structures.pdf](Measurement_File_Naming_and_Folder_Structures.pdf) file, which describes the measurement file naming and folder structures.
 --------------------------------------------------------------------------------
 
 *Honours:*
