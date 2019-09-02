@@ -1,4 +1,5 @@
-# NOTICE! THIS REPOSITORY MIGHT NOT BE UPDATED AFTER JULY 11th 2019! PLEASE FIND THE UPDATED VERSION FROM THE DEVELOPERS'S REPOSITORY: https://github.com/dmm809/nls-gnss-sofamesa
+** NOTICE! THIS REPOSITORY MIGHT NOT BE UPDATED AFTER JULY 11th 2019! PLEASE FIND THE UPDATED VERSION FROM THE DEVELOPERS'S REPOSITORY: https://github.com/dmm809/nls-gnss-sofamesa ** 
+Regarding issues with this repository, contact finpos@maanmittauslaitos.fi 
 
 # NLS GNSS SOFAMESA
 *Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
