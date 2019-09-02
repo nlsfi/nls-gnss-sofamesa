@@ -1,5 +1,6 @@
 ** NOTICE! THIS REPOSITORY MIGHT NOT BE UPDATED AFTER JULY 11th 2019! PLEASE FIND THE UPDATED VERSION FROM THE DEVELOPERS'S REPOSITORY: https://github.com/dmm809/nls-gnss-sofamesa ** 
-Regarding issues with this repository, contact finpos ( at ) maanmittauslaitos.fi 
+
+Regarding issues with *this* repository, contact finpos ( at ) maanmittauslaitos.fi 
 
 # NLS GNSS SOFAMESA
 *Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
@@ -100,20 +101,20 @@ Regarding issues with this repository, contact finpos ( at ) maanmittauslaitos.f
 **[Table 2](20190524-A-90M9180-METHOD1-1_table2.csv), [Table 2](90M9180_1_Combined_Statistics_Table2.csv) & [Table 2](90M9180_10_Visits_Conclusions_Statistics_Table2.csv)**
 
 - Precision
-  - Horizontal RMSE ± (m)
-  - Vertical RMSE ± (m)
-  - Horizontal 2dRMSE ± (m)
-  - Vertical 2dRMSE ± (m)
-  - North Coordinate Standard Deviation ± (m)
-  - East Coordinate Standard Deviation ± (m)
-  - Height Standard Deviation ± (m)
+  - Horizontal RMSE (m)
+  - Vertical RMSE (m)
+  - Horizontal 2dRMSE (m)
+  - Vertical 2dRMSE (m)
+  - North Coordinate Standard Deviation (m)
+  - East Coordinate Standard Deviation (m)
+  - Height Standard Deviation (m)
   - North Coordinate Mean (m)
   - East Coordinate Mean (m)
   - Height Mean (m)
   - North Coordinate Median (m)
   - East Coordinate Median (m)
   - Height Median (m)
-- Accuracy ± (m)
+- Accuracy (m)
   - Horizontal RMSE
   - Vertical RMSE
   - Horizontal 2dRMSE
@@ -129,13 +130,13 @@ These are the parameters, which are taken into account in the [Table 4 (Grading 
 *  Fixed Solutions % (No Outliers)
 *  Mean of PDOPs
 *  Mean of GDOPs
-*  Precision: Horizontal RMSE ± (m)
-*  Precision: Vertical RMSE ± (m)
-*  Accuracy: Horizontal RMSE ± (m)
-*  Accuracy: Vertical RMSE ± (m)
-*  Precision: North Coordinate Std ± (m)
-*  Precision: East Coordinate Std ± (m)
-*  Precision: Height Std ± (m)
+*  Precision: Horizontal RMSE (m)
+*  Precision: Vertical RMSE (m)
+*  Accuracy: Horizontal RMSE (m)
+*  Accuracy: Vertical RMSE (m)
+*  Precision: North Coordinate Std (m)
+*  Precision: East Coordinate Std (m)
+*  Precision: Height Std (m)
 
 **[Table 4 (Grading Table)](90M9180_10_Visits_Conclusions_Statistics_Table4.csv)**
 
