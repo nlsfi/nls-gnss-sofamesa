@@ -5,7 +5,7 @@ Regarding issues with *this* repository, contact finpos ( at ) maanmittauslaitos
 # NLS GNSS SOFAMESA
 *Do you ever compare the performance of different GNSS receivers or Network-RTK methods (VRS, PRS, MAC, MAX, i-MAX, FKP etc.) before investing into one? How do you validate the performance of a GNSS receiver or a Network-RTK method in reality? You can use this software for those purposes.*
 
-SOFAMESA analyses GNSS measurement files. See example report produced by SOFAMESA: [Comparison of five methods](90M9180_10_Visits_Conclusions_Measurement_Report.pdf)
+SOFAMESA analyses GNSS measurement files. See example report produced by SOFAMESA: [Comparison of five methods](99M2128_1_Combined_Measurement_Report.pdf)
 
 
 
